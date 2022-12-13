@@ -6,7 +6,7 @@
 labels are for each category. You can put a the name of each category and copy from terminal 
 the table generated using pandas.
 
-- filelist.py ==> This script generates two txt with a path list of images. You can specify 
-percentage partition of total images. This is with the objective to train YOLO darknet.
+- filelist.py ==> This script generates two txt with a path list of images (train.txt and valid.txt).
+You can specify percentage partition of total images. This is with the objective to train YOLO darknet.
 
 ------------
