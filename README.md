@@ -13,4 +13,9 @@ You can specify percentage partition of total images. This is with the objective
 creates a lot of folders and to unpack this manually it takes a lot of time. This script moves every 
 single file from this subfolders to main folder. You can put many folders to un pack in the same script. 
 
+- class_discriminator ==> This folder contains two files. This tool is useful for getting images with 
+certain amount of each category. In config.ini there are two types of filter. In AND_CONDITIONALS, image
+must fulfill all conditionals. In OR_CONDITIONALS, images must fulfill just one conditional. If there is 
+no OR_CONDITIONAL, you must put at least one that you put before in AND_CONDITIONALS.
+
 ------------
