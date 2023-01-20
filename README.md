@@ -21,4 +21,6 @@ You can specify percentage partition of total images. This is with the objective
 creates a lot of folders and to unpack this manually it takes a lot of time. This script moves every 
 single file from this subfolders to main folder. You can put many folders to un pack in the same script. 
 
+- video_folder_sort.py ==> This script puts a video with its respective file with the information about detections in to an enumerated folder. 
+
 ------------
