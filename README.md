@@ -23,4 +23,6 @@ single file from this subfolders to main folder. You can put many folders to un 
 
 - video_folder_sort.py ==> This script puts a video with its respective file with the information about detections in to an enumerated folder. 
 
+- remove_files.py ==> Eliminates all files in parent folder with an specified extension.
+
 ------------
