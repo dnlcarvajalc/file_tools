@@ -40,6 +40,8 @@ def change_hour(video_name:str) -> str:
             new_hour = '0' + str(new_hour) 
         if float(new_hour) < 10000 and float(new_hour) > 0:
             new_hour = '0' + str(new_hour)
+        if new_hour == 0:
+            new_hour = '000000'
         
         dates[iterator] = str(new_day) + 'T' + str(new_hour)
     new_video_name = '-'.join(dates)
