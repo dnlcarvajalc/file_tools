@@ -25,6 +25,10 @@ single file from this subfolders to main folder. You can put many folders to un 
 
 - remove_files.py ==> Eliminates all files in parent folder with an specified extension.
 
-- new_yolo_format_folder.py == This script helps to separate a merged label folder with images and txt into two separated folders. One with
+- new_yolo_format_folder.py ==> This script helps to separate a merged label folder with images and txt into two separated folders. One with
 the labels and the other one with the images. 
+
+- renamer.py ==> Search for every file with a determined extension and renames it with a secuence of numbers.
+
+- change_hour.py ==> Add or sustracts hours at file names with the format: YYYYMMDDTHHMMSS-YYYYMMDDTHHMMSS.
 ------------
