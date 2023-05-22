@@ -4,6 +4,11 @@
 - data_notebooks ==> this folder contains jupyter notebooks to get o convert data. It contains: 
     - OpenImages_download.ipynb ==> with this notebook we can download images from OpenImagesV6 of a certain class.
 
+- create_lists_yolov4 ==> this folder constains two files. In readme file there is a command useful to download a list from an s3 URI. 
+This will give a you a list with all files including labels and images of your dataset stored in S3. After you have this list you can use next files:
+    - eliminate_rows.py ==> This file lets you eliminate rows with an specified suffix. 
+    - make_random_train_list.py ==> This script gives you the train and valid lists with an specific percentage of partition. Also it makes it random!
+
 - class_discriminator ==> This folder contains two files. This tool is useful for getting images with 
 certain amount of each category. In config.ini there are two types of filter. In AND_CONDITIONALS, image
 must fulfill all conditionals. In OR_CONDITIONALS, images must fulfill just one conditional. If there is 
