@@ -31,7 +31,9 @@ single file from this subfolders to main folder. You can put many folders to un 
 - remove_files.py ==> Eliminates all files in parent folder with an specified extension.
 
 - new_yolo_format_folder.py ==> This script helps to separate a merged label folder with images and txt into two separated folders. One with
-the labels and the other one with the images. 
+the labels and the other one with the images.
+
+- encrypt_json.py ==> Encrypts a json dict and saves it to a csv.
 
 - renamer.py ==> Search for every file with a determined extension and renames it with a secuence of numbers.
 
